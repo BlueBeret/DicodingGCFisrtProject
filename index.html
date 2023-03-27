@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Sofirul Danatriya</title>
+</head>
+
+<body>
+    <header>
+        <nav class="leftnav">
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="#games">Games</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">Lurifos</h1>
+        <nav class="rightnav">
+            <ul>
+                <!-- discord. jk I dont have discord, do I?-->
+                <li><a href="#" target="_blank"><img class="icon" src="https://storage.googleapis.com/temporary-bucket-assignment/assets/img/discord.svg" alt="discord"></a></li>
+                <!-- github -->
+                <li><a href="https://www.github.com/blueberet" target="_blank"><img class="icon"
+                            src="https://storage.googleapis.com/temporary-bucket-assignment/assets/img/github.svg" alt="github"></a></li>
+                <!-- twitter -->
+                <li><a href="https://www.twitter.com/lurifos" target="_blank"><img class="icon"
+                            src="https://storage.googleapis.com/temporary-bucket-assignment/assets/img/twitter.svg" alt="twitter"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <div id="content">
+            <article id="about">
+                <h1>
+                    Hi, I am Lurifos
+                </h1>
+                <p>
+                    Hello, I am Lurifos and welcome to my playground. I'm a computer science student who love math.
+                    Mostly I do frontend and backend project but sometimes I do other project too, like desktop app,
+                    bot/automation, twitter app, and more.
+                </p>
+                <p>
+                    Techstack that I use in my projects are vary. For example, I use NextJS for web project, Python for native desktop app and bot/automation. I also have a private server that I use to host most of my personal project. 
+                </p>
+                <p>
+                    I don't really like to write, however I have a public diary (more like a dev log) on my website, you
+                    can access it <a class="content-link" href="https://lurifos.dev/diary" target="_blank">here</a>. If
+                    you want to ask a question, you can ask <a class="content-link" href="https://lurifos.dev/askme"
+                        target="_blank">here</a> or email me at <a class="content-link" href="mailto:me@lurifos.dev"
+                        target="_blank">me@lurifos.dev</a>.
+                </p>
+            </article>
+            <article id="hobby">
+                <h1>
+                    My Hobby
+                </h1>
+                <p>
+                    I love math, computer science, and programming. I also love to play games, like FPS, RPG, etc. My
+                    favorite games are Stardew Valley, Terraria, and Minecraft. I also play competitive games like
+                    Valorant and Clash Royale. But now, I don't play games that much because I'm quite busy with other
+                    things.
+                </p>
+                <p>
+                    Aside of gaming I also love to watch youtube videos. I spend around 1-2 hours everyday watching youtube videos. 
+                </p>
+            </article>
+            <article id="games">
+                <h1>Games</h1>
+                <p>Here's a minigame I create for this project, It's rock paper scissor. Let's see if you can beat the bot :D</p>
+                <div id="game-container">
+                    <div id="scoreboard">
+                        You <b>0</b> - <b>0</b> Bot
+                    </div>
+                    <div id="main-game">
+                        <p>Choose carefully!</p>
+                        <div id="choice">
+                            <button data-choice="0">rock</button>
+                            <button data-choice="1">paper</button>
+                            <button data-choice="2">scissor</button>
+                        </div>
+                    </div>
+                    
+                    <div id="result" class=""></div>
+                </div>
+
+            </article>
+        </div>
+        <aside>
+            <h1>
+                This is me
+            </h1>
+            <img class="profile-pict" src="https://storage.googleapis.com/temporary-bucket-assignment/assets/img/fotoprofil.jpg" alt="sofirul danatriya">
+            <p>
+                <b>Name:</b> Sofirul Danatriya<br>
+                <b>Location:</b> Indonesia<br>
+                <b>Occupation:</b> Software Developer<br>
+                <b>Interests:</b> Math and Computer science<br>
+            </p>
+        </aside>
+    </main>
+    <footer>
+        <span>
+            Made with ❤ by Lurifos
+        </span>
+    </footer>
+    <script>
+        document.getElementsByClassName("header-title")[0].addEventListener("click", function () {
+            window.open("https://lurifos.dev", "_blank");
+        })
+    </script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
